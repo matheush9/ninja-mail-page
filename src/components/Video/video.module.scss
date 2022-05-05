@@ -1,1 +1,24 @@
 @import "/src/styles/cores.scss";
+
+.component {
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .videoText {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: white;
+      width: 80vw;
+      text-align: center;
+    }
+  }
+  img {
+    width: 95vw;
+    height: 25vh;
+  }
+}

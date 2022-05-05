@@ -1,16 +1,28 @@
 @import "/src/styles/cores.scss";
 
 .component {
+  display: flex;
+  flex-direction: column;
+  
   .heroImage {
     width: 100vw;
     position: relative;
     top: -10vh;
     z-index: -1;
   }
+
   .text {
     span {
       display: block;
     }
+  }
+
+  p {
+    margin-top: -10vh;
+  }
+
+  .btns {
+    display: flex;
   }
 }
 
