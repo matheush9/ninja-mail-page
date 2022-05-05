@@ -1,0 +1,12 @@
+@import "/src/styles/cores.scss";
+
+.component {
+  height: 45vh;
+  width: 58vw;
+  background-color: white;
+  box-shadow: rgba(17, 12, 46, 0.25) 0px 4px 4px 0px;
+
+  .text {
+    padding: 5vw;
+  }
+}
