@@ -1,0 +1,13 @@
+@import "/src/styles/cores.scss";
+
+.component {
+  position: relative;
+  .text {
+    position: absolute;
+    color: white;
+    top: 20vh;
+    left: 5vw;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+}

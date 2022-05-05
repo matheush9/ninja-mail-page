@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import GetStarted from "../components/GetStarted";
 import Hero from "../components/Hero";
 import LearnHow from "../components/LearnHow";
+import Member from "../components/Member";
 import Navbar from "../components/Navbar";
 import PhotoBox from "../components/PhotoBox";
 import TheSource from "../components/TheSource";
@@ -33,6 +34,21 @@ export default function Home() {
         }
       />
       <TheSource />
+      <Member
+        srcImage={"/images/frankie.jpg"}
+        nome={"Frankie"}
+        since={"2020"}
+      />
+      <Member
+        srcImage={"/images/frankie.jpg"}
+        nome={"Frankie"}
+        since={"2020"}
+      />{" "}
+      <Member
+        srcImage={"/images/frankie.jpg"}
+        nome={"Frankie"}
+        since={"2020"}
+      />
       <LearnHow />
       <AllThe />
       <GetStarted />
