@@ -1,1 +1,10 @@
 @import "/src/styles/cores.scss";
+
+.component {
+  display: flex;
+
+  .logoImage {
+    width: 55vw;
+    height: 8vh;
+  }
+}
