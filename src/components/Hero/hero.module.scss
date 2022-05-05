@@ -1,1 +1,23 @@
 @import "/src/styles/cores.scss";
+
+.component {
+  .heroImage {
+    width: 100vw;
+    position: relative;
+    top: -10vh;
+    z-index: -1;
+  }
+  .text {
+    span {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .component {
+    br {
+      display: none;
+    }
+  }
+}
