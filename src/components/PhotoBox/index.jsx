@@ -6,8 +6,8 @@ export default function PhotoBox(props) {
     <div className={styles.component}>
       <img src={props.srcImage} alt="" />
       <div className={styles.text}>
-        <p>{props.texto}</p>
-        <p>Learn More &gt;</p>
+        <p className={styles.raleway500}>{props.texto}</p>
+        <p className={styles.raleway800}>Learn More &gt;</p>
       </div>
     </div>
   );

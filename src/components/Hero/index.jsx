@@ -12,7 +12,7 @@ export default function Hero() {
       </div>
       <img className={styles.heroImage} src="/images/hero-image.jpg" alt="" />
 
-      <p>
+      <p className={styles.raleway500}>
         Create and launch email campaigns that captivate your customers in just
         a few clicks.
       </p>

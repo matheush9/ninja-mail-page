@@ -7,8 +7,8 @@ export default function Member(props) {
     <div className={styles.component}>
       <img src={props.srcImage} alt="" />
       <div className={styles.text}>
-        <p>{props.nome}</p>
-        <p>Member since {props.since}</p>
+        <p className={styles.raleway900}>{props.nome}</p>
+        <p className={styles.raleway700}>Member since {props.since}</p>
       </div>
     </div>
   );

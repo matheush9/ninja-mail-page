@@ -4,7 +4,7 @@ import styles from "./brands.module.scss";
 export default function Brands() {
   return (
     <div className={styles.component}>
-      <h3>All the best brands already use us.</h3>
+      <h2>All the best brands already use us.</h2>
 
       <div className={styles.items}>
         <div className={styles.item}>

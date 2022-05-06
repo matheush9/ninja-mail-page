@@ -28,14 +28,19 @@ export default function Footer() {
         <hr />
 
         <div>
-          <p> NinjaMail is a sample project for Quest AI.</p>
-          <p>&copy; 2019 Quest AI, All rights deserved.</p>
+          <p className={styles.raleway700}>
+            {" "}
+            NinjaMail is a sample project for Quest AI.
+          </p>
+          <p className={styles.raleway700}>
+            &copy; 2019 Quest AI, All rights deserved.
+          </p>
         </div>
         <br />
         <br />
         <div>
-          <p>Terms & Conditions</p>
-          <p>Privacy Policy</p>
+          <p className={styles.raleway700}>Terms & Conditions</p>
+          <p className={styles.raleway700}>Privacy Policy</p>
         </div>
       </div>
     </div>

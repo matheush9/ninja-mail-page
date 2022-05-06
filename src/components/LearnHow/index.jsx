@@ -10,9 +10,11 @@ export default function LearnHow() {
 
   return (
     <div className={styles.component}>
-      <h3>Learn how others are reaching their audience easier than before.</h3>
+      <h2>Learn how others are reaching their audience easier than before.</h2>
       <input type="email" placeholder="Enter your email" />
-      <p className={state ? styles.none : ""}>Thanks! Email receveid</p>
+      <p className={state ? styles.none : styles.raleway500}>
+        Thanks! Email receveid
+      </p>
       <button onClick={showMessage}>JOIN OUR LIST</button>
     </div>
   );
