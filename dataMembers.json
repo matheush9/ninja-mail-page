@@ -1,0 +1,23 @@
+[
+  {
+    "srcImage": "/images/frankie.jpg",
+    "nome": "Frankie",
+    "since": "2016",
+    "id": "0"
+  },
+
+  {
+    "srcImage": "/images/camile.jpg",
+    "nome": "Camile",
+    "since": "2012",
+    "id": "1"
+  },
+
+  {
+    "srcImage": "/images/elayne.jpg",
+    "nome": "Elayne",
+    "since": "2018",
+    "id": "2"
+  }
+  
+]

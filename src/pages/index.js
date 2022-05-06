@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import AllThe from "../components/AllThe";
+import Brands from "../components/Brands";
 import Footer from "../components/Footer";
 import GetStarted from "../components/GetStarted";
 import Hero from "../components/Hero";
@@ -11,6 +11,8 @@ import PhotoBox from "../components/PhotoBox";
 import TheSource from "../components/TheSource";
 import Video from "../components/Video";
 import styles from "../styles/home.module.scss";
+import DataMembers from "../../dataMembers.json";
+import DataPhotoBox from "../../dataPhotoBox.json";
 
 export default function Home() {
   return (
@@ -21,36 +23,20 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Video />
-      <PhotoBox
-        srcImage={"/images/workers.jpg"}
-        texto={
-          "oasdjkasiouhsa dihsai dhasid ashdaisud haisdubh aidbasiudbaisdbauiud"
-        }
-      />
-      <PhotoBox
-        srcImage={"/images/workers.jpg"}
-        texto={
-          "oasdjkasiouhsa dihsai dhasid ashdaisud haisdubh aidbasiudbaisdbauiud"
-        }
-      />
+      {DataPhotoBox.map((data) => (
+        <PhotoBox srcImage={data.srcImage} texto={data.texto} key={data.id} />
+      ))}
       <TheSource />
-      <Member
-        srcImage={"/images/frankie.jpg"}
-        nome={"Frankie"}
-        since={"2020"}
-      />
-      <Member
-        srcImage={"/images/frankie.jpg"}
-        nome={"Frankie"}
-        since={"2020"}
-      />{" "}
-      <Member
-        srcImage={"/images/frankie.jpg"}
-        nome={"Frankie"}
-        since={"2020"}
-      />
+      {/* {DataMembers.map((data) => (
+        <Member
+          srcImage={data.srcImage}
+          nome={data.nome}
+          since={data.since}
+          key={data.id}
+        />
+      ))} */}
       <LearnHow />
-      <AllThe />
+      <Brands />
       <GetStarted />
       <Footer />
     </div>
