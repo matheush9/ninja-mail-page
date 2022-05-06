@@ -1,1 +1,9 @@
 @import "/src/styles/cores.scss";
+
+.component {
+  ul {
+    display: flex;
+    flex-flow: wrap column;
+    max-height: 25vh;
+  }
+}

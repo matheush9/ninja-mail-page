@@ -27,14 +27,14 @@ export default function Home() {
         <PhotoBox srcImage={data.srcImage} texto={data.texto} key={data.id} />
       ))}
       <TheSource />
-      {/* {DataMembers.map((data) => (
+      {DataMembers.map((data) => (
         <Member
           srcImage={data.srcImage}
           nome={data.nome}
           since={data.since}
           key={data.id}
         />
-      ))} */}
+      ))}
       <LearnHow />
       <Brands />
       <GetStarted />
