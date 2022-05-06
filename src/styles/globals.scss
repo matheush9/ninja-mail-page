@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Raleway:wght@500;700;800;900&display=swap");
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -16,7 +15,6 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
 li {
   list-style-type: none;
   font-family: "Raleway", sans-serif;
@@ -25,10 +23,22 @@ li {
 button {
   font-family: "Raleway", sans-serif;
   font-weight: 900;
+  background-color: #4ba87d;
+  color: white;
+  padding: 4vw;
+  width: 35vw;
+  border: none;
 }
 input {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
-body {
+li {
+  line-height: 26px;
+}
+
+@media (min-width: 600px) {
+  p {
+    line-height: 26px;
+  }
 }
