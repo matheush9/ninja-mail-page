@@ -7,4 +7,19 @@
     width: 55vw;
     height: 8vh;
   }
+  .container {
+    a {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .component {
+    .container {
+      a {
+        display: inline;
+      }
+    }
+  }
 }

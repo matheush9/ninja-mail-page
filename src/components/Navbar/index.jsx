@@ -10,7 +10,13 @@ export default function Navbar() {
         alt=""
         src={"/images/ninja-mail-logo.png"}
       />
-      <button>SIGN UP FREE</button>
+      <div className={styles.container}>
+        <a href="">FEATURES</a>
+        <a href="">PRICING</a>
+        <a href="">SERVICES</a>
+        <a href="">PARTNERS</a>
+        <button>SIGN UP FREE</button>
+      </div>
     </div>
   );
 }
