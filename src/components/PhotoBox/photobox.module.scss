@@ -2,12 +2,22 @@
 @import "/src/styles/fonts.scss";
 
 .component {
-  height: 45vh;
-  width: 58vw;
+  width: 65vw;
   background-color: white;
   box-shadow: rgba(17, 12, 46, 0.25) 0px 4px 4px 0px;
-
+  margin-bottom: 5vw;
+  margin-left: 29vw;
+  img {
+    width: 65vw;
+  }
   .text {
-    padding: 5vw;
+    padding: 4vw;
+    p:last-child {
+      margin-top: 2vh;
+      color: $main-color;
+    }
+    p {
+      font-size: 0.9rem;
+    }
   }
 }

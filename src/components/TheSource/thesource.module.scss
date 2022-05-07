@@ -1,2 +1,15 @@
 @import "/src/styles/cores.scss";
 @import "/src/styles/fonts.scss";
+
+.component {
+  padding: 10vw;
+  h2 {
+    font-size: 2rem;
+    line-height: 35px;
+  }
+
+  p {
+    font-size: 0.9rem;
+    margin-top: 2vh;
+  }
+}
