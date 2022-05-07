@@ -3,7 +3,11 @@ import styles from "./footer.module.scss";
 export default function Footer() {
   return (
     <div className={styles.component}>
-      <img src="/images/ninja-mail-logo.png" alt="" />
+      <img
+        className={styles.logoImage}
+        src="/images/ninja-mail-logo.svg"
+        alt=""
+      />
       <div>
         <ul>
           <li>Features</li>

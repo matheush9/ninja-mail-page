@@ -13,7 +13,7 @@ export default function LearnHow() {
       <h2>Learn how others are reaching their audience easier than before.</h2>
       <input type="email" placeholder="Enter your email" />
       <p className={state ? styles.none : styles.raleway500}>
-        Thanks! Email receveid
+        Thanks! Email received
       </p>
       <button onClick={showMessage}>JOIN OUR LIST</button>
     </div>

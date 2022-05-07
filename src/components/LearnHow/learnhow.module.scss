@@ -2,6 +2,38 @@
 @import "/src/styles/fonts.scss";
 
 .component {
+  display: flex;
+  flex-direction: column;
+  padding: 8vw;
+  text-align: center;
+  margin-top: 5vw;
+  align-items: center;
+
+  input {
+    padding: 4vw;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5vw;
+    width: 70vw;
+
+    &::placeholder {
+      color: black;
+      font-size: 1rem;
+    }
+  }
+  p {
+    color: $main-color;
+  }
+  p,
+  button {
+    margin-top: 2vw;
+  }
+
+  input,
+  .component {
+    margin-top: 5vw;
+  }
   .none {
     display: none;
   }

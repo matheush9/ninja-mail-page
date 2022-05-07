@@ -2,12 +2,22 @@
 @import "/src/styles/fonts.scss";
 
 .component {
+  padding: 4vw;
+  .logoImage {
+    width: 40vw;
+    margin-left: -2vw;
+  }
   ul {
     display: flex;
     flex-flow: wrap column;
-    max-height: 25vh;
+    max-height: 38vh;
   }
   p {
-    line-height: 36px;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+
+  hr {
+    margin: 6vw 0;
   }
 }
