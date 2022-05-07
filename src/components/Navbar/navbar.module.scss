@@ -3,14 +3,19 @@
 
 .component {
   display: flex;
-
+  justify-content: space-between;
+  padding: 3vw;
   .logoImage {
-    width: 55vw;
-    height: 8vh;
+    height: 16vw;
   }
   .container {
     a {
       display: none;
+    }
+
+    button {
+      padding: 2vw;
+      margin-top: 1.5vw;
     }
   }
 }

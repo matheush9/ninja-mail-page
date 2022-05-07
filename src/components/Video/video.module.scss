@@ -5,6 +5,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+    margin-bottom: 5vh;
 
     .videoText {
       position: absolute;
@@ -15,6 +16,15 @@
       color: white;
       width: 80vw;
       text-align: center;
+    }
+
+    button {
+      margin-top: 3vh;
+      color: $main-color;
+      background-color: white;
+      height: 15%;
+      width: 30%;
+      font-size: 0.5rem;
     }
   }
   img {

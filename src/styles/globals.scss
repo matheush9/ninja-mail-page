@@ -22,12 +22,13 @@ li {
 }
 button {
   font-family: "Raleway", sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   background-color: #4ba87d;
   color: white;
-  padding: 4vw;
+  padding: 3vw;
   width: 35vw;
   border: none;
+  font-size: 0.9rem;
 }
 input {
   font-family: "Raleway", sans-serif;
@@ -40,5 +41,11 @@ li {
 @media (min-width: 600px) {
   p {
     line-height: 26px;
+  }
+}
+
+@media (max-height: 600px) {
+  html {
+    font-size: 90%;
   }
 }

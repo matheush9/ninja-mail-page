@@ -8,7 +8,7 @@ export default function Navbar() {
       <img
         className={styles.logoImage}
         alt=""
-        src={"/images/ninja-mail-logo.png"}
+        src={"/images/ninja-mail-logo.svg"}
       />
       <div className={styles.container}>
         <a href="">FEATURES</a>
