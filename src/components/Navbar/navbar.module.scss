@@ -30,19 +30,26 @@
     .logoImage {
       height: 7vw;
       margin-top: 1vw;
+      cursor: pointer;
     }
     .container {
       a {
         display: inline;
         font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        border-bottom: 4px solid $main-color;
+        font-weight: 900;
+        padding-bottom: 0.5vw;
         margin-right: 2vw;
         font-size: 0.9rem;
+
+        &:hover {
+          border-bottom: 4px solid $main-color;
+          transition: 0.3s;
+        }
       }
       button {
         width: 15vw;
         padding: 1vw;
+        cursor: pointer;
       }
     }
   }
