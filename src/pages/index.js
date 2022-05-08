@@ -23,21 +23,21 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Video />
-      <div className={styles.photoBoxContainer}>
+      <div id="services" className={styles.photoBoxContainer}>
         {DataPhotoBox.map((data) => (
           <PhotoBox srcImage={data.srcImage} texto={data.texto} key={data.id} />
         ))}
         <TheSource />
       </div>
       <div className={styles.memberContainer}>
-      {DataMembers.map((data) => (
-        <Member
-          srcImage={data.srcImage}
-          nome={data.nome}
-          since={data.since}
-          key={data.id}
-        />
-      ))}
+        {DataMembers.map((data) => (
+          <Member
+            srcImage={data.srcImage}
+            nome={data.nome}
+            since={data.since}
+            key={data.id}
+          />
+        ))}
       </div>
       <LearnHow />
       <Brands />

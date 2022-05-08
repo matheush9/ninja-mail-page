@@ -4,7 +4,7 @@ import styles from "./member.module.scss";
 export default function Member(props) {
   console.log(props.nome);
   return (
-    <div className={styles.component}>
+    <div id="partners" className={styles.component}>
       <img src={props.srcImage} alt="" />
       <div className={styles.text}>
         <p className={styles.raleway800}>{props.nome}</p>

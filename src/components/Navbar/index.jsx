@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./navbar.module.scss";
 import Image from "next/dist/client/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -11,10 +12,18 @@ export default function Navbar() {
         src={"/images/ninja-mail-logo.svg"}
       />
       <div className={styles.container}>
-        <a href="">FEATURES</a>
-        <a href="">PRICING</a>
-        <a href="">SERVICES</a>
-        <a href="">PARTNERS</a>
+        <Link href="#features">
+          <a>FEATURES</a>
+        </Link>
+        <Link href="#pricing">
+          <a>PRICING</a>
+        </Link>
+        <Link href="#services">
+          <a>SERVICES</a>
+        </Link>
+        <Link href="#partners">
+          <a>PARTNERS</a>
+        </Link>
         <button>SIGN UP FREE</button>
       </div>
     </div>
