@@ -4,60 +4,111 @@
 .component {
   display: flex;
   flex-direction: column;
-  position: relative;
-  margin-bottom: 5vh;
-  padding: 3vw;
+  justify-content: center;
 
   .wrapper {
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: center;
+
     .heroImage {
-      width: 100vw;
-      z-index: -1;
-      height: 30vh;
+      position: absolute;
+      width: 95vw;
+      height: 55vw;
     }
   }
 
-  .text {
-    position: absolute;
-    top: -15vw;
-
-    h1 {
-      font-size: 2.5rem;
-    }
-    span {
-      display: block;
-    }
-  }
-
-  .btns {
-    display: flex;
-    justify-content: space-around;
-    width: 96vw;
-    button {
-      width: 45vw;
-    }
-    button:last-child {
-      background-color: white;
-      color: $main-color;
-      border: 4px solid $main-color;
-    }
-  }
   .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    z-index: 2;
+
+    .text {
+      margin-left: 2vw;
+      padding-bottom: 45vw;
+      margin-top: -15vw;
+
+      h1 {
+        font-size: 2.5rem;
+      }
+      span {
+        display: block;
+      }
+      br {
+        display: none;
+      }
+    }
 
     p {
-      margin: 2vh 0;
+      margin-left: 2vw;
+    }
+
+    .btns {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5vw;
+      margin-bottom: 10vw;
+      button {
+        width: 45vw;
+      }
+      button:last-child {
+        background-color: white;
+        color: $main-color;
+        border: 4px solid $main-color;
+      }
     }
   }
 }
 
 @media (min-width: 800px) {
   .component {
-    br {
-      display: none;
+    margin-bottom: 5vw;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+    .container {
+      width: 40vw;
+      position: relative;
+      right: 20vw;
+      bottom: 6vw;
+      .text {
+        margin: 0;
+        padding: 0;
+
+        h1 {
+          font-size: 2.8rem;
+        }
+      }
+
+      .btns {
+        justify-content: unset;
+        margin-top: 0vw;
+        button {
+          width: 14vw;
+          padding: 1vw;
+        }
+        button:last-child {
+          margin-left: 3vw;
+        }
+      }
+
+      p {
+        margin-left: 0;
+        margin: 2vw 0;
+      }
+    }
+
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      right: 6vw;
+      bottom: 8vw;
+      .heroImage {
+        position: absolute;
+        width: 50vw;
+        height: 30vw;
+      }
     }
   }
 }

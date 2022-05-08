@@ -23,10 +23,13 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Video />
-      {DataPhotoBox.map((data) => (
-        <PhotoBox srcImage={data.srcImage} texto={data.texto} key={data.id} />
-      ))}
-      <TheSource />
+      <div className={styles.photoBoxContainer}>
+        {DataPhotoBox.map((data) => (
+          <PhotoBox srcImage={data.srcImage} texto={data.texto} key={data.id} />
+        ))}
+        <TheSource />
+      </div>
+      <div className={styles.memberContainer}>
       {DataMembers.map((data) => (
         <Member
           srcImage={data.srcImage}
@@ -35,6 +38,7 @@ export default function Home() {
           key={data.id}
         />
       ))}
+      </div>
       <LearnHow />
       <Brands />
       <GetStarted />

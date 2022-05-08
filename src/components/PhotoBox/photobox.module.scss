@@ -22,3 +22,17 @@
     }
   }
 }
+
+@media (min-width: 600px) {
+  .component {
+    width: 25vw;
+    height: 38vw;
+    margin-left: 3vw;
+    img {
+      width: 25vw;
+    }
+    .text {
+      padding: 1vw 2vw;
+    }
+  }
+}

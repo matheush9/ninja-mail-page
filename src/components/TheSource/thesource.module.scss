@@ -12,3 +12,9 @@
     margin-top: 2vh;
   }
 }
+
+@media (min-width: 600px) {
+  .component {
+    padding: 4vw 3vw;
+  }
+}

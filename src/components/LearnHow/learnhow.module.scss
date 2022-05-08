@@ -38,3 +38,13 @@
     display: none;
   }
 }
+
+@media (min-width: 600px) {
+  .component {
+    flex-direction: row;
+    input {
+      width: 40vw;
+      padding: 1.5vw;
+    }
+  }
+}

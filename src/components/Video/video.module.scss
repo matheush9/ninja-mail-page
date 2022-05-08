@@ -36,3 +36,25 @@
     height: 25vh;
   }
 }
+
+@media (min-width: 600px) {
+  .component {
+    .container {
+      .videoText {
+        h2 {
+          font-size: 2.8rem;
+        }
+        button {
+          margin-top: 4vw;
+          width: 15vw;
+          padding: 1.5vw;
+          font-size: 1rem;
+        }
+      }
+    }
+    img {
+      width: 70vw;
+      height: 40vw;
+    }
+  }
+}

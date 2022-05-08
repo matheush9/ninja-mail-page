@@ -22,3 +22,17 @@
     }
   }
 }
+
+@media (min-width: 600px) {
+  .component {
+    img {
+      width: 20vw;
+      margin-left: 2vw;
+    }
+
+    .text {
+      bottom: 1vw;
+      left: 2vw;
+    }
+  }
+}
