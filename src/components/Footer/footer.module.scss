@@ -10,7 +10,11 @@
   ul {
     display: flex;
     flex-flow: wrap column;
-    max-height: 38vh;
+    max-height: 82vw;
+
+    li {
+      cursor: pointer;
+    }
   }
   p {
     line-height: 30px;
@@ -19,5 +23,44 @@
 
   hr {
     margin: 6vw 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .component {
+    padding: 2vw 4vw;
+    .container {
+      display: flex;
+      .logoImage {
+        width: 14vw;
+        margin-bottom: 10vw;
+        margin-right: 15vw;
+        margin-left: 4vw;
+      }
+      .wrapper {
+        ul {
+          max-height: 15vw;
+
+          div {
+            margin-left: 4vw;
+          }
+        }
+      }
+    }
+
+    hr {
+      margin: 3vw 0;
+    }
+    .copyrightContainer {
+      display: flex;
+      justify-content: center;
+      div {
+        display: flex;
+      }
+
+      p {
+        margin-right: 2vw;
+      }
+    }
   }
 }

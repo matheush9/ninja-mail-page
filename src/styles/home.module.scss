@@ -1,6 +1,8 @@
 .container {
-  div:nth-child(1) {
-    margin-left: 3vw;
+  .photoBoxContainer {
+    div:nth-child(1) {
+      margin-left: 3vw;
+    }
   }
 }
 
@@ -19,6 +21,7 @@
 
     .memberContainer {
       display: flex;
+      justify-content: center;
     }
   }
 }

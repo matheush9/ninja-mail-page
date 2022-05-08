@@ -18,3 +18,19 @@
     margin-top: 12vw;
   }
 }
+
+@media (min-width: 600px) {
+  .component {
+    margin-bottom: 5vw;
+    padding: 8vw;
+    h2 {
+      font-size: 3rem;
+    }
+
+    button {
+      margin-top: 4vw;
+      padding: 2vw;
+      width: 15vw;
+    }
+  }
+}

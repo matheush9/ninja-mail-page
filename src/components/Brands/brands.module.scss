@@ -34,3 +34,33 @@
     }
   }
 }
+
+@media (min-width: 600px) {
+  .component {
+    h2 {
+      padding: 0 30vw;
+    }
+    .items {
+      flex-direction: row;
+      margin: 4vw 10vw;
+      .item {
+        width: 12vw;
+      }
+      .item:nth-child(1) {
+        order: 2;
+      }
+      .item:nth-child(2) {
+        order: 5;
+      }
+      .item:nth-child(3) {
+        order: 1;
+      }
+      .item:nth-child(4) {
+        order: 4;
+      }
+      .item:nth-child(5) {
+        order: 3;
+      }
+    }
+  }
+}
