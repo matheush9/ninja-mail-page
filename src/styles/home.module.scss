@@ -22,6 +22,10 @@
     .memberContainer {
       display: flex;
       justify-content: center;
+
+      div:nth-child(1) {
+        margin-left: 0;
+      }
     }
   }
 }

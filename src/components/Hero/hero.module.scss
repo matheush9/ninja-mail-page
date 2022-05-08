@@ -16,6 +16,7 @@
       position: absolute;
       width: 95vw;
       height: 55vw;
+      box-shadow: rgba(17, 12, 46, 0.1) 0px 4px 8px 2px;
     }
   }
 
@@ -104,6 +105,7 @@
       z-index: 1;
       right: 6vw;
       bottom: 8vw;
+
       .heroImage {
         position: absolute;
         width: 50vw;

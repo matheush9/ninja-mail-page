@@ -51,6 +51,12 @@ body {
   p {
     line-height: 20px;
   }
+  body {
+    background-image: url("/images/BG stuff.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 9%;
+  }
 }
 
 @media (max-height: 600px) {
