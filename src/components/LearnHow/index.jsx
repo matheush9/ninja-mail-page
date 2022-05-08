@@ -11,11 +11,13 @@ export default function LearnHow() {
   return (
     <div className={styles.component}>
       <h2>Learn how others are reaching their audience easier than before.</h2>
-      <input type="email" placeholder="Enter your email" />
+      <div className={styles.container}>
+        <input type="email" placeholder="Enter your email" />
+        <button onClick={showMessage}>JOIN OUR LIST</button>
+      </div>
       <p className={state ? styles.none : styles.raleway500}>
         Thanks! Email received
       </p>
-      <button onClick={showMessage}>JOIN OUR LIST</button>
     </div>
   );
 }

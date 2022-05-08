@@ -41,10 +41,27 @@
 
 @media (min-width: 600px) {
   .component {
-    flex-direction: row;
-    input {
-      width: 40vw;
-      padding: 1.5vw;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 4vw;
+    h2 {
+      padding: 0 14vw;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      margin-top: 2vw;
+      input {
+        width: 35vw;
+        padding: 1.5vw;
+        margin: 0;
+        margin-right: 2vw;
+      }
+      button {
+        margin: 0;
+        padding: 1.5vw;
+        width: 15vw;
+      }
     }
   }
 }
