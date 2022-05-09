@@ -1,12 +1,12 @@
 [
   {
-    "srcImage": "/images/woman.jpg",
+    "srcImage": "/images/woman.png",
     "texto": "Launch Campaigns but also find new customers. Our unique platforms handles campaigns from start to end.",
     "id": "5"
   },
 
   {
-    "srcImage": "/images/workers.jpg",
+    "srcImage": "/images/workers.png",
     "texto": "Start building and sharing with your team today. NinjaMail is renowned for its industry leading team collaboration tools.",
     "id": "6"
   }
