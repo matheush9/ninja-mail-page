@@ -30,9 +30,6 @@
       padding-bottom: 35vw;
       margin-top: -15vw;
 
-      h1 {
-        font-size: 2.5rem;
-      }
       span {
         display: block;
       }
@@ -62,7 +59,7 @@
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
   .component {
     margin-bottom: 5vw;
     flex-direction: row-reverse;
@@ -114,6 +111,14 @@
         width: 50vw;
         height: 30vw;
       }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .component {
+    h1 {
+      font-size: 2.5rem;
     }
   }
 }
